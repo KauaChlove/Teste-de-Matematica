@@ -127,6 +127,7 @@
             soma.Name = "soma";
             soma.Size = new Size(100, 39);
             soma.TabIndex = 1;
+            soma.ValueChanged += answerCorrect;
             soma.Enter += answer_Enter;
             // 
             // diferenca
@@ -136,6 +137,7 @@
             diferenca.Name = "diferenca";
             diferenca.Size = new Size(100, 39);
             diferenca.TabIndex = 2;
+            diferenca.ValueChanged += answerCorrect;
             // 
             // label3
             // 
@@ -184,6 +186,7 @@
             produto.Name = "produto";
             produto.Size = new Size(100, 39);
             produto.TabIndex = 3;
+            produto.ValueChanged += answerCorrect;
             // 
             // label8
             // 
@@ -232,6 +235,7 @@
             quociente.Name = "quociente";
             quociente.Size = new Size(100, 39);
             quociente.TabIndex = 4;
+            quociente.ValueChanged += answerCorrect;
             // 
             // label12
             // 
